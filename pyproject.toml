@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ASTCrawler"
+version = "0.1.0"
+description = "A minimalistic Python crawler for ASTDiff"
+authors = [
+    { name = "Victor Guerra Veloso", email = "victorgvbh@gmail.com" }
+]
+dependencies = [
+    "scrapy"
+]
+
+[tool.setuptools]
+packages = ["astcrawler"]
+package-dir = {"" = "src"}
