@@ -1,1 +1,3 @@
-from astcrawler.astcrawler import ASTCrawler
+__version__ = "0.1.0"
+import astcrawler.spiders
+
